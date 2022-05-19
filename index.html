@@ -12,19 +12,26 @@
     <title>Xavier Guerrero - Web Dev</title>
 </head>
 <body>
-   
+
+<!-- BARRA DE IDIOMAS -->
+<div class="container-fluid">
+    <div class="row lenguaje">
+        <img src="./assets/espana.png" alt="bandera españa" class="col-md-1 lenguaje__img">
+        <img src="./assets/reino-unido.png" alt="bandera reino unido" class="col-md-1 lenguaje__img">
+    </div>
+</div>
     <!-- PRESENTACION -->
 
 <article class="container-fluid presentacion">
     <div class="row">
         <div class="col-md-10">
-            <p class="presentacion__titulo">Hola, Mi nombre es <span class="presentacion__titulo-especial">Xavier Ignacio Guerrero</span> y soy Desarrollador Web. <br>Te cuento un poco mas de mi.</p>
+            <p class="presentacion__titulo" id="presentacion__titulo">Hola, Mi nombre es <span class="presentacion__titulo-especial">Xavier Ignacio Guerrero</span> y soy Desarrollador Web. <br>Te cuento un poco mas sobre mi.</p>
             <a href="#cv" id="boton2">
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
-                ver mas
+                Ver mas
             </a>
         </div>
     </div>
@@ -37,39 +44,39 @@
         <div class="card-header">
         <div class="card-cover" style="background-image: url('https://images.unsplash.com/photo-1549068106-b024baf5062d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80')"></div>
         <img class="card-avatar" src="./assets/1648592844905.jpg" alt="avatar" />
-        <h3 class="card-fullname">Xavier Guerrero</h3>
-        <h2 class="card-jobtitle">Desarrollador Front-End</h2>
+        <h3 class="card-fullname" id="card-fullname">Xavier Guerrero</h3>
+        <h2 class="card-jobtitle" id="card-jobtitle">Desarrollador Front-End</h2>
         </div>
         <div class="card-main">
         <div class="card-section is-active" id="about">
             <div class="card-content">
-            <div class="card-subtitle">Sobre mi</div>
-            <p class="card-desc">Desarrollador web. Entusiasta de buscar siempre nuevos horizontes. Combino mi experiencia comercial con mi habilidad como desarrollador. Mi Stack: HTML5 - CSS3 - SASS - BOOTSTRAP - JAVASCRIPT - GIT - GITHUB.
+            <div class="card-subtitle" id="card-subtitle">Sobre mi</div>
+            <p class="card-desc" id="card-subtitleDescription">Desarrollador web. Entusiasta de buscar siempre nuevos horizontes. Combino mi experiencia comercial con mi habilidad como desarrollador. Mi Stack: HTML5 - CSS3 - SASS - BOOTSTRAP - JAVASCRIPT - GIT - GITHUB.
             </p>
             </div>
         </div>
         <div class="card-section" id="experience">
             <div class="card-content">
-            <div class="card-subtitle">EXPERIENCIA</div>
+            <div class="card-subtitle" id="card-subtitle2">EXPERIENCIA</div>
             <div class="card-timeline">
                 <div class="card-item" data-year="2014">
-                <div class="card-item-title">Vendedor Zonal en <span>Ceramicas Lourdes</span></div>
-                <div class="card-item-desc">Jefe de ventas de 3 areas de Argentina.</div>
+                <div class="card-item-title" id="card-item-title">Vendedor Zonal en Ceramicas Lourdes</div>
+                <div class="card-item-desc" id="card-item-desc">Jefe de ventas de 3 areas de Argentina.</div>
                 </div>
                 <div class="card-item" data-year="2017">
-                <div class="card-item-title">Jefe de Firma Digital en <span>Alpha 2000</span></div>
-                <div class="card-item-desc">Jefe comercial y legal de firma digital.</div>
+                <div class="card-item-title" id="card-item-title2">Jefe de Firma Digital en Alpha 2000</div>
+                <div class="card-item-desc" id="card-item-desc2">Jefe comercial y legal de firma digital.</div>
                 </div>
                 <div class="card-item" data-year="2021">
-                <div class="card-item-title">Web Developer en <span>XYM Desarrollos Web</span></div>
-                <div class="card-item-desc">Desarrollador Freelance de paginas Web.</div>
+                <div class="card-item-title" id="card-item-title3">Web Developer en XYM Desarrollos Web</div>
+                <div class="card-item-desc" id="card-item-desc3">Desarrollador Freelance de paginas Web.</div>
                 </div>
             </div>
             </div>
         </div>
         <div class="card-section" id="contact">
             <div class="card-content">
-            <div class="card-subtitle">CONTACTO</div>
+            <div class="card-subtitle" id="card-subtitle3">CONTACTO</div>
             <div class="card-contact-wrapper">
                 <div class="card-contact">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -90,9 +97,9 @@
             </div>
         </div>
         <div class="card-buttons">
-            <button data-section="#about" class="is-active">SOBRE MI</button>
-            <button data-section="#experience">EXPERIENCIA</button>
-            <button data-section="#contact">CONTACTO</button>
+            <button data-section="#about" class="is-active" id="pestana1">SOBRE MI</button>
+            <button data-section="#experience" id="pestana2">EXPERIENCIA</button>
+            <button data-section="#contact" id="pestana3">CONTACTO</button>
         </div>
         </div>
     </div>
@@ -101,10 +108,10 @@
 <!-- PROYECTOS -->
 
 <article class="container-fluid proyectos">
-    <h3 class="proyectos__titulo">Mis Proyectos Realizados</h3>
+    <h3 class="proyectos__titulo" id="proyectos__titulo">Mis Proyectos Realizados</h3>
     <div class="row d-flex align-items-center">
         <div class="col-md-6">
-            <p class="proyectos__texto">Web desarrollada para mi casamiento. Cuenta con un HTML de bienvenida, Single-Home-Page que contiene toda la informacion del evento y una side-page con el apartado para los regalos. Utiliza <span class="proyectos__texto-especial">HTML-CSS-SASS-JS</span>. <br> <a href="#" class="proyectos__link2">Visitar el sitio</a></p>
+            <p class="proyectos__texto" id="proyecto">Web desarrollada para mi casamiento. Cuenta con un HTML de bienvenida, Single-Home-Page que contiene toda la informacion del evento y una side-page con el apartado para los regalos. Utiliza <span class="proyectos__texto-especial">HTML-CSS-SASS-JS</span>. <br> <a href="#" class="proyectos__link2" id="link">Visitar el sitio</a></p>
             
             <div class="proyectos__areaboton">
             <button class="boton1"> <a href="#" id="linkrepo">Ver Repositorio</a> </button>   
@@ -120,7 +127,7 @@
     </div>
     <div class="row d-flex align-items-center">
         <div class="col-md-6">
-            <p class="proyectos__texto">Primer Web publicada en servidor, para mi primer cliente. Web Institucional para una Decoradora de Interiores. Utiliza <span class="proyectos__texto-especial">HTML-CSS-SASS</span>. <br> <a href="#" class="proyectos__link2">Visitar el sitio</a></p>
+            <p class="proyectos__texto" id="proyecto1">Primer Web publicada en servidor, para mi primer cliente. Web Institucional para una Decoradora de Interiores. Utiliza <span class="proyectos__texto-especial">HTML-CSS-SASS</span>. <br> <a href="#" class="proyectos__link2" id="link1">Visitar el sitio</a></p>
             <div class="proyectos__areaboton">
                 <button class="boton1"> <a href="" id="linkrepo">Ver Repositorio</a> </button>    
                 </div>
@@ -134,7 +141,7 @@
     </div>
     <div class="row d-flex align-items-center">
         <div class="col-md-6">
-            <p class="proyectos__texto">Web institucional para un complejo turistico en Cordoba. Segundo cliente y mi segunda Web subida a servidor. Tambien se utilizo <span class="proyectos__texto-especial">HTML-CSS-SASS-JS</span>. <br> <a href="#" class="proyectos__link2">Visitar el sitio</a></p>
+            <p class="proyectos__texto" id="proyecto2">Web institucional para un complejo turistico en Cordoba. Segundo cliente y mi segunda Web subida a servidor. Tambien se utilizo <span class="proyectos__texto-especial">HTML-CSS-SASS-JS</span>. <br> <a href="#" class="proyectos__link2" id="link2">Visitar el sitio</a></p>
             <div class="proyectos__areaboton">
                 <button class="boton1"> <a href="" id="linkrepo">Ver Repositorio</a> </button>    
             </div>
@@ -148,7 +155,7 @@
     </div>
     <div class="row d-flex align-items-center">
         <div class="col-md-6">
-            <p class="proyectos__texto">Proyecto Final de mi cursada en JavaScript. Web enfocada en el pronostico del Mundial de Qatar 2022 con apartado de estadisticas de las 32 selecciones participantes. Se uso <span class="proyectos__texto-especial">HTML-CSS-SASS-JS-JASON</span>. <br> <a href="#" class="proyectos__link2">Visitar el sitio</a></p>
+            <p class="proyectos__texto" id="proyecto3">Proyecto Final de mi cursada en JavaScript. Web enfocada en el pronostico del Mundial de Qatar 2022 con apartado de estadisticas de las 32 selecciones participantes. Se uso <span class="proyectos__texto-especial">HTML-CSS-SASS-JS-JASON</span>. <br> <a href="#" class="proyectos__link2" id="link3">Visitar el sitio</a></p>
             <div class="proyectos__areaboton">
                 <button class="boton1"> <a href="" id="linkrepo">Ver Repositorio</a> </button>    
                 </div>
@@ -162,6 +169,21 @@
     </div>
 </article>
 
+<!-- FOOTER -->
+
+<div class="container-fluid footer d-flex justify-content-center">
+    <div class="row d-flex align-items-center">
+        <img src="./assets/punta-de-flecha-hacia-arriba.png" alt="" class="col-md-1 footer__icono">
+    </div>
+</div>
+<div class="container-fluid footer d-flex justify-content-center">
+    <div class="row d-flex align-items-center">
+        <img src="./assets/github.png" alt="" class="col-md-1 footer__icono">
+        <img src="./assets/cv.png" alt="" class="col-md-1 footer__icono">
+        <img src="./assets/linkedin (1).png" alt="" class="col-md-1 footer__icono">
+        <img src="./assets/contactos.png" alt="" class="col-md-1 footer__icono">
+    </div>
+</div>
 
     <script src="./js/cv.js"></script>
     <script src="./js/proyectos.js"></script>

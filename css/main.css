@@ -5,6 +5,14 @@
   padding: 0px;
   box-sizing: border-box; }
 
+.lenguaje {
+  justify-content: end;
+  background-color: black; }
+  .lenguaje__img {
+    width: 7vh; }
+    .lenguaje__img:hover {
+      cursor: pointer; }
+
 .presentacion {
   display: flex;
   justify-content: center;
@@ -562,3 +570,8 @@ h1 + p {
   font-size: 1.5rem; }
   .proyectos__link2:hover {
     color: #03e9f4; }
+
+.footer {
+  height: 10vh; }
+  .footer__icono {
+    width: 8vh; }
