@@ -1,3 +1,6 @@
+@import "./responsive";
+@import "./variables";
+
 *,
 *::after,
 *::before {
@@ -24,6 +27,7 @@
       color: $color-celeste;
       font-family: $font-normal;
       font-size: 2.4rem;
+      padding: 20px;
   }
 
   &__texto{
@@ -87,6 +91,33 @@ h1+p {
   box-shadow: 0 0 3rem .5rem hsla(0, 0%, 0%, .2);
 
   transition: transform .6s 1s;
+
+  &--b{
+    background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("../../assets/mar.jpg");
+    background-size: 32rem auto;
+  }
+
+  &--c{
+    background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("../../assets/uritorco.jpg");
+    background-size: 32rem auto;
+  }
+
+  &--d{
+    background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("../../assets/mundial.jpg");
+    background-size: 32rem auto;
+  }
+
+  @include movil{
+    width: 10rem;
+    height: 12rem;
+    background-size: 15rem auto;
+  }
+
+  @include tablet {
+    width: 10rem;
+    height: 12rem;
+    background-size: 15rem auto;
+  }
 }
 
 .container::before,
@@ -124,13 +155,8 @@ h1+p {
   transition: none;
 }
 
-.container--2 {
-  filter: hue-rotate(80deg) saturate(140%);
-}
 
-.container--3 {
-  filter: hue-rotate(160deg) saturate(140%);
-}
+
 
 .container p {
   color: hsla(0, 0%, 100%, .6);
@@ -150,3 +176,4 @@ h1+p {
   color: hsla(0, 0%, 0%, .6);
   font-size: 1.6rem;
 }
+
