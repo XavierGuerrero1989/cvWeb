@@ -96,7 +96,7 @@ botonEnglish.addEventListener ("click", function () {
     proyectoLinkRepo2.innerText = "See Repository"
     
 
-    proyectoDesc3.innerText = "Final project of my course in JavaScript. Web focused on the prediction of the Qatar 2022 World Cup with a statistics section of the 32 participating teams. Used HTML-CSS-SASS-JS-JASON."
+    proyectoDesc3.innerText = "Final project of my course in JavaScript. Web focused on the prediction of the Qatar 2022 World Cup with a statistics section of the 32 participating teams. Used HTML-CSS-SASS-JS-JSON."
     proyectoLink3.innerText = "Visit the Web"
     proyectoLinkRepo3.innerText = "See Repository"
 
