@@ -592,7 +592,7 @@ h1 + p {
     color: #03e9f4; }
 
 .footer {
-  height: 10vh; }
+  height: 7vh; }
   .footer__1row {
     height: 5vh; }
   .footer__icono {
@@ -623,3 +623,7 @@ h1 + p {
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg); } }
+
+.rowContacto {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2rem; }

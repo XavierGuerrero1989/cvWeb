@@ -50,7 +50,7 @@ let proyectoDesc3 = document.getElementById("proyecto3")
 let proyectoLink3 = document.getElementById("link3")
 let proyectoLinkRepo3 = document.getElementById("linkrepo3")
 
-
+let rowContacto = document.getElementById("rowContacto")
 let cv = document.getElementById("cvSource")
 
 
@@ -100,10 +100,16 @@ botonEnglish.addEventListener ("click", function () {
     proyectoLink3.innerText = "Visit the Web"
     proyectoLinkRepo3.innerText = "See Repository"
 
-    cv.src = "./assets/english.pdf"
+    rowContacto.innerText = "CONTACT"
+    cv.href = "./assets/english.pdf"
 
 })
 
+// ESPANOL
+
 botonEspanol.addEventListener('click', () => { 
+   
+    cv.href = "./assets/espanol.pdf"
     location.reload();
+    
 });
