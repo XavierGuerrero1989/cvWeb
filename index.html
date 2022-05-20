@@ -14,10 +14,10 @@
 <body>
 
 <!-- BARRA DE IDIOMAS -->
-<div class="container-fluid">
+<div class="container-fluid" id="inicio">
     <div class="row lenguaje">
-        <img src="./assets/espana.png" alt="bandera españa" class="col-md-1 lenguaje__img">
-        <img src="./assets/reino-unido.png" alt="bandera reino unido" class="col-md-1 lenguaje__img">
+        <img src="./assets/espana.png" alt="bandera españa" class="col-md-1 lenguaje__img" id="espanol">
+        <img src="./assets/reino-unido.png" alt="bandera reino unido" class="col-md-1 lenguaje__img" id="english">
     </div>
 </div>
     <!-- PRESENTACION -->
@@ -25,13 +25,13 @@
 <article class="container-fluid presentacion">
     <div class="row">
         <div class="col-md-10">
-            <p class="presentacion__titulo" id="presentacion__titulo">Hola, Mi nombre es <span class="presentacion__titulo-especial">Xavier Ignacio Guerrero</span> y soy Desarrollador Web. <br>Te cuento un poco mas sobre mi.</p>
+            <p class="presentacion__titulo" id="presentacion__titulo">Hola, Mi nombre es </p><span class="presentacion__titulo-especial">Xavier Ignacio Guerrero </span> <span class="presentacion__titulo" id="presentacion__titulo2"> y soy Desarrollador Web.</span> <span class="presentacion__titulo" id="presentacion__titulo3">Te cuento un poco más sobre mi.</span> 
             <a href="#cv" id="boton2">
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
-                Ver mas
+                Ver más
             </a>
         </div>
     </div>
@@ -61,15 +61,15 @@
             <div class="card-timeline">
                 <div class="card-item" data-year="2014">
                 <div class="card-item-title" id="card-item-title">Vendedor Zonal en Ceramicas Lourdes</div>
-                <div class="card-item-desc" id="card-item-desc">Jefe de ventas de 3 areas de Argentina.</div>
+                <div class="card-item-desc" id="card-item-desc">Jefe de ventas de 3 áreas de Argentina.</div>
                 </div>
                 <div class="card-item" data-year="2017">
                 <div class="card-item-title" id="card-item-title2">Jefe de Firma Digital en Alpha 2000</div>
                 <div class="card-item-desc" id="card-item-desc2">Jefe comercial y legal de firma digital.</div>
                 </div>
                 <div class="card-item" data-year="2021">
-                <div class="card-item-title" id="card-item-title3">Web Developer en XYM Desarrollos Web</div>
-                <div class="card-item-desc" id="card-item-desc3">Desarrollador Freelance de paginas Web.</div>
+                <div class="card-item-title" id="card-item-title3">Web Developer en XYM Web Proyects</div>
+                <div class="card-item-desc" id="card-item-desc3">Desarrollador Freelance de páginas Web.</div>
                 </div>
             </div>
             </div>
@@ -111,39 +111,23 @@
     <h3 class="proyectos__titulo" id="proyectos__titulo">Mis Proyectos Realizados</h3>
     <div class="row d-flex align-items-center">
         <div class="col-md-6">
-            <p class="proyectos__texto" id="proyecto">Web desarrollada para mi casamiento. Cuenta con un HTML de bienvenida, Single-Home-Page que contiene toda la informacion del evento y una side-page con el apartado para los regalos. Utiliza <span class="proyectos__texto-especial">HTML-CSS-SASS-JS</span>. <br> <a href="#" class="proyectos__link2" id="link">Visitar el sitio</a></p>
-            
+            <p class="proyectos__texto" id="proyecto3">Proyecto Final de mi cursada en JavaScript. Web enfocada en el pronóstico del Mundial de Qatar 2022 con apartado de estadísticas de las 32 selecciones participantes. Se utilizó  <span class="proyectos__texto-especial" id="idiomas4">HTML-CSS-SASS-JS-JASON</span>. <br> <a href="https://xavierguerrero1989.github.io/Qatar2022/" target="_blank" class="proyectos__link2" id="link3">Visitar el sitio</a></p>
             <div class="proyectos__areaboton">
-            <button class="boton1"> <a href="#" id="linkrepo">Ver Repositorio</a> </button>   
-            </div>
-            
+                <button class="boton1"> <a href="https://github.com/XavierGuerrero1989/Qatar2022" target="_blank" id="linkrepo3">Ver Repositorio</a> </button>    
+                </div>
         </div>
         <div class="col-md-6 proyectos__cartas">
-            <div class="wrap wrap--1">
-                <div class="container container--1">
+            <div class="wrap wrap--4">
+                <div class="container container--4 container--d">
                 </div>
             </div>
         </div>
     </div>
     <div class="row d-flex align-items-center">
         <div class="col-md-6">
-            <p class="proyectos__texto" id="proyecto1">Primer Web publicada en servidor, para mi primer cliente. Web Institucional para una Decoradora de Interiores. Utiliza <span class="proyectos__texto-especial">HTML-CSS-SASS</span>. <br> <a href="#" class="proyectos__link2" id="link1">Visitar el sitio</a></p>
+            <p class="proyectos__texto" id="proyecto2">Web institucional para un complejo turístico en Córdoba. Segundo cliente y mi segunda Web subida a servidor. También se utilizó <span class="proyectos__texto-especial" id="idiomas3">HTML-CSS-SASS-JS</span>. <br> <a href="https://refugiouritorco.com.ar/" target="_blank" class="proyectos__link2" id="link2">Visitar el sitio</a></p>
             <div class="proyectos__areaboton">
-                <button class="boton1"> <a href="" id="linkrepo">Ver Repositorio</a> </button>    
-                </div>
-        </div>
-        <div class="col-md-6 proyectos__cartas">
-            <div class="wrap wrap--2">
-                <div class="container container--2 container--b">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row d-flex align-items-center">
-        <div class="col-md-6">
-            <p class="proyectos__texto" id="proyecto2">Web institucional para un complejo turistico en Cordoba. Segundo cliente y mi segunda Web subida a servidor. Tambien se utilizo <span class="proyectos__texto-especial">HTML-CSS-SASS-JS</span>. <br> <a href="#" class="proyectos__link2" id="link2">Visitar el sitio</a></p>
-            <div class="proyectos__areaboton">
-                <button class="boton1"> <a href="" id="linkrepo">Ver Repositorio</a> </button>    
+                <button class="boton1"> <a href="https://github.com/XavierGuerrero1989/refugioUritorco" target="_blank" id="linkrepo2">Ver Repositorio</a> </button>    
             </div>
         </div>
         <div class="col-md-6 proyectos__cartas">
@@ -155,38 +139,61 @@
     </div>
     <div class="row d-flex align-items-center">
         <div class="col-md-6">
-            <p class="proyectos__texto" id="proyecto3">Proyecto Final de mi cursada en JavaScript. Web enfocada en el pronostico del Mundial de Qatar 2022 con apartado de estadisticas de las 32 selecciones participantes. Se uso <span class="proyectos__texto-especial">HTML-CSS-SASS-JS-JASON</span>. <br> <a href="#" class="proyectos__link2" id="link3">Visitar el sitio</a></p>
+            <p class="proyectos__texto" id="proyecto1">Primer Web publicada en servidor, para mi primer cliente. Web Institucional para una Decoradora de Interiores. Utiliza <span class="proyectos__texto-especial" id="idiomas2">HTML-CSS-SASS</span>. <br> <a href="http://mardecoraciones.com/" target="_blank" class="proyectos__link2" id="link1">Visitar el sitio</a></p>
             <div class="proyectos__areaboton">
-                <button class="boton1"> <a href="" id="linkrepo">Ver Repositorio</a> </button>    
+                <button class="boton1"> <a href="https://github.com/XavierGuerrero1989/repoProyectoFinal" target="_blank" id="linkrepo1">Ver Repositorio</a> </button>    
                 </div>
         </div>
         <div class="col-md-6 proyectos__cartas">
-            <div class="wrap wrap--4">
-                <div class="container container--4 container--d">
+            <div class="wrap wrap--2">
+                <div class="container container--2 container--b">
                 </div>
             </div>
         </div>
     </div>
+    <div class="row d-flex align-items-center">
+        <div class="col-md-6">
+            <p class="proyectos__texto" id="proyecto">Web desarrollada para mi casamiento. Cuenta con un HTML de bienvenida, Single-Home-Page que contiene toda la información del evento y una side-page con el apartado para los regalos. Utiliza <span class="proyectos__texto-especial" id="idiomas1">HTML-CSS-SASS-JS.</span> <br> <a href="http://yaninayxavier.com/" target="_blank" class="proyectos__link2" id="link"><span id="enlace">Visitar el sitio</span></a></p>
+            
+            <div class="proyectos__areaboton">
+            <button class="boton1"> <a href="https://github.com/XavierGuerrero1989/casamiento" target="_blank" id="linkrepo">Ver Repositorio</a> </button>   
+            </div>
+            
+        </div>
+        <div class="col-md-6 proyectos__cartas">
+            <div class="wrap wrap--1">
+                <div class="container container--1">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
 </article>
 
 <!-- FOOTER -->
 
 <div class="container-fluid footer d-flex justify-content-center">
-    <div class="row d-flex align-items-center">
-        <img src="./assets/punta-de-flecha-hacia-arriba.png" alt="" class="col-md-1 footer__icono">
+    <div class="row d-flex align-items-center footer__1row">
+        <a href="#inicio"><img src="./assets/punta-de-flecha-hacia-arriba.png" alt="" class="col-md-1 footer__icono up"></a>
     </div>
 </div>
 <div class="container-fluid footer d-flex justify-content-center">
     <div class="row d-flex align-items-center">
-        <img src="./assets/github.png" alt="" class="col-md-1 footer__icono">
-        <img src="./assets/cv.png" alt="" class="col-md-1 footer__icono">
-        <img src="./assets/linkedin (1).png" alt="" class="col-md-1 footer__icono">
-        <img src="./assets/contactos.png" alt="" class="col-md-1 footer__icono">
+        <a href="https://github.com/XavierGuerrero1989" target="_blank" class="col-md-2 text-center"><img src="./assets/github.png" alt="" class="footer__icono"></a>
+        <a href="https://www.linkedin.com/in/xavierignacioguerrero/" target="_blank" class="col-md-2 text-center"><img src="./assets/linkedin (1).png" alt="" class="footer__icono"></a>
+        <span class="col-md-1"></span>
+        <a href="./assets/espanol.pdf" target="_blank" class="col-md-2 text-center" id="cvSource"><img src="./assets/cv.png" alt="" class="footer__icono"></a> 
+        <span class="col-md-1"></span>
+        <a href="mailto:xymdesarrollosweb@gmail.com" target="_blank" class="col-md-2 text-center"><img src="./assets/contactos.png" alt="" class="footer__icono"></a>
+        <a href="https://wa.me/5491136120890" target="_blank" class="col-md-2 text-center"><img src="./assets/whatsapp.png" alt="" class="footer__icono"></a>
     </div>
 </div>
 
     <script src="./js/cv.js"></script>
     <script src="./js/proyectos.js"></script>
+    <script src="./js/idioma.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

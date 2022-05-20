@@ -24,9 +24,11 @@
   .presentacion__titulo {
     color: white;
     font-family: "Roboto Condensed", sans-serif !important;
-    font-size: 2rem; }
+    font-size: 1.9rem; }
     .presentacion__titulo-especial {
-      color: #03e9f4; }
+      color: #03e9f4;
+      font-family: "Roboto Condensed", sans-serif !important;
+      font-size: 1.9rem; }
 
 #boton2 {
   position: relative;
@@ -563,6 +565,24 @@ h1 + p {
   #linkrepo:hover {
     color: white; }
 
+#linkrepo1 {
+  text-decoration: none;
+  color: #37E8FC; }
+  #linkrepo1:hover {
+    color: white; }
+
+#linkrepo2 {
+  text-decoration: none;
+  color: #37E8FC; }
+  #linkrepo2:hover {
+    color: white; }
+
+#linkrepo3 {
+  text-decoration: none;
+  color: #37E8FC; }
+  #linkrepo3:hover {
+    color: white; }
+
 .proyectos__link2 {
   font-family: "Roboto Condensed", sans-serif;
   color: white;
@@ -573,5 +593,33 @@ h1 + p {
 
 .footer {
   height: 10vh; }
+  .footer__1row {
+    height: 5vh; }
   .footer__icono {
-    width: 8vh; }
+    width: 5vh; }
+    @media screen and (max-width: 320px) {
+      .footer__icono {
+        padding: 5px; } }
+    @media screen and (max-width: 768px) {
+      .footer__icono {
+        padding: 5px; } }
+
+.up:hover {
+  -webkit-animation: rotate-center 0.6s ease-in-out both;
+  animation: rotate-center 0.6s ease-in-out both; }
+
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }

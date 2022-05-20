@@ -65,6 +65,33 @@
     }
 }
 
+#linkrepo1{
+  text-decoration: none;
+  color: #37E8FC;
+
+  &:hover{
+      color: white;
+  }
+}
+
+#linkrepo2{
+  text-decoration: none;
+  color: #37E8FC;
+
+  &:hover{
+      color: white;
+  }
+}
+
+#linkrepo3{
+  text-decoration: none;
+  color: #37E8FC;
+
+  &:hover{
+      color: white;
+  }
+}
+
 .proyectos__link2{
     font-family: $font-normal;
     color: white;

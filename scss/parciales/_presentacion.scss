@@ -15,10 +15,13 @@
     &__titulo {
         color: white;
         font-family: $font-normal !important;
-        font-size: 2rem;
+        font-size: 1.9rem;
 
         &-especial{
             color: $color-celeste;
+            font-family: $font-normal !important;
+            font-size: 1.9rem;
+
         }
     }
 }
