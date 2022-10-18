@@ -107,6 +107,11 @@ h1+p {
     background-size: 32rem auto;
   }
 
+  &--e{
+    background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("../../assets/comicscreen.png");
+    background-size: 32rem auto;
+  }
+
   @include movil{
     width: 10rem;
     height: 12rem;
