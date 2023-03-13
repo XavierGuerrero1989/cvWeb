@@ -85,7 +85,7 @@ h1+p {
   position: relative;
   transform: rotateX(calc(var(--rX) * 1deg)) rotateY(calc(var(--rY) * 1deg));
 
-  background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("../../assets/casamiento.jpg");
+  background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("../assets/casamiento.jpg");
   background-position: var(--bX) var(--bY);
   background-size: 40rem auto;
   box-shadow: 0 0 3rem .5rem hsla(0, 0%, 0%, .2);
@@ -93,22 +93,22 @@ h1+p {
   transition: transform .6s 1s;
 
   &--b{
-    background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("../../assets/mar.jpg");
+    background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("../assets/mar.jpg");
     background-size: 32rem auto;
   }
 
   &--c{
-    background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("../../assets/uritorco.jpg");
+    background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("../assets/uritorco.jpg");
     background-size: 32rem auto;
   }
 
   &--d{
-    background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("../../assets/mundial.jpg");
+    background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("../assets/mundial.jpg");
     background-size: 32rem auto;
   }
 
   &--e{
-    background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("../../assets/comicscreen.png");
+    background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("../assets/comicscreen.png");
     background-size: 32rem auto;
   }
 

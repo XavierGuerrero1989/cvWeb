@@ -449,22 +449,22 @@ h1 + p {
   align-items: flex-end;
   position: relative;
   transform: rotateX(calc(var(--rX) * 1deg)) rotateY(calc(var(--rY) * 1deg));
-  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../../assets/casamiento.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../assets/casamiento.jpg");
   background-position: var(--bX) var(--bY);
   background-size: 40rem auto;
   box-shadow: 0 0 3rem 0.5rem rgba(0, 0, 0, 0.2);
   transition: transform .6s 1s; }
   .container--b {
-    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../../assets/mar.jpg");
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../assets/mar.jpg");
     background-size: 32rem auto; }
   .container--c {
-    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../../assets/uritorco.jpg");
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../assets/uritorco.jpg");
     background-size: 32rem auto; }
   .container--d {
-    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../../assets/mundial.jpg");
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../assets/mundial.jpg");
     background-size: 32rem auto; }
   .container--e {
-    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../../assets/comicscreen.png");
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../assets/comicscreen.png");
     background-size: 32rem auto; }
   @media screen and (max-width: 320px) {
     .container {
